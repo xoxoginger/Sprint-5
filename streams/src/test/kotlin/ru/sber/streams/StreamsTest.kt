@@ -55,7 +55,7 @@ class StreamsTest {
     @Test
     fun getProductsOrderedByAllTest() {
         val shop = Shop("Test shop", listOf(
-                Customer("Alex", Moscow, listOf(Order(listOf(water, mango, bag)))),
+                Customer("Alex", Moscow, listOf(Order(listOf(water, mango)), Order(listOf(bag)))),
                 Customer("Mary", Tula, listOf(Order(listOf(chocolate, bag)))),
                 Customer("Ivan", Perm, listOf(Order(listOf(water, bag)))),
         ))
